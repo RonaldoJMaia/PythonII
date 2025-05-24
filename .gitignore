@@ -1,0 +1,72 @@
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.manifest
+*.pex
+*.pytest_cache/
+
+# Virtual Environment
+# ===============================
+venv/
+env/
+.venv/
+.env/
+/bin
+/include
+/lib
+/lib64
+/pyvenv.cfg
+/share
+
+# Django
+# ===============================
+*.log
+*.pot
+*.mo
+db.sqlite3
+media/
+static/
+.DS_Store
+*.seed
+*.pid
+*.sock
+*.vscode/
+
+# IDEs & OS
+# ===============================
+.idea/
+.vscode/
+.history/
+*.swp
+*.bak
+*.swo
+*~
+.#*
+.terraform/
+.terraform.lock.hcl
+.terraformrc
+.terraformignore
+.terraform/
+.terraform.lock.hcl
+.terraformrc
+.terraformignore
+Thumbs.db
+Desktop.ini

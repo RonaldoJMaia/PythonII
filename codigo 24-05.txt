@@ -1,0 +1,91 @@
+O Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Instale o PowerShell mais recente para obter novos recursos e aprimoramentos! https://aka.ms/PSWindows
+
+PS C:\Users\ronaldo.maia\Desktop\Python II> cd djando
+cd : Não é possível localizar o caminho 'C:\Users\ronaldo.maia\Desktop\Python II\djando' porque ele não existe.
+No linha:1 caractere:1
++ cd djando
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ronald...ython II\djando:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\ronaldo.maia\Desktop\Python II> cd django
+PS C:\Users\ronaldo.maia\Desktop\Python II\django> cmd
+Microsoft Windows [versão 10.0.26100.1742]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\activate
+
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django>pip freeze
+asgiref==3.8.1
+Django==5.2.1
+sqlparse==0.5.3
+tzdata==2025.2
+
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django>pip freeze > requeriments.txt
+
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 8A4B-7F39
+
+ Pasta de C:\Users\ronaldo.maia\Desktop\Python II\django
+
+24/05/2025  08:36    <DIR>          .
+24/05/2025  08:31    <DIR>          ..
+24/05/2025  08:31    <DIR>          motor
+24/05/2025  08:36                64 requeriments.txt
+24/05/2025  08:32    <DIR>          venv
+               1 arquivo(s)             64 bytes
+               4 pasta(s)   729.907.212.288 bytes disponíveis
+
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django>cat
+'cat' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\deactivate.bat
+C:\Users\ronaldo.maia\Desktop\Python II\django>cd..
+
+C:\Users\ronaldo.maia\Desktop\Python II>code .
+
+C:\Users\ronaldo.maia\Desktop\Python II>readme.md
+
+C:\Users\ronaldo.maia\Desktop\Python II>
+
+C:\Users\ronaldo.maia\Desktop\Python II>git init
+Reinitialized existing Git repository in C:/Users/ronaldo.maia/Desktop/Python II/.git/
+
+C:\Users\ronaldo.maia\Desktop\Python II>git add .
+
+C:\Users\ronaldo.maia\Desktop\Python II>git commit -m "Commit inicial"
+[main 08cd665] Commit inicial
+ Committer: RONALDO MAIA <ronaldo.maia@senacsp.edu.br>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 3745 insertions(+), 6 deletions(-)
+ create mode 100644 codigos.txt
+ create mode 100644 readme.md
+
+C:\Users\ronaldo.maia\Desktop\Python II>git branch -M main
+
+C:\Users\ronaldo.maia\Desktop\Python II>git remote add origin https://github.com/RonaldoJMaia/PythonII.git
+error: remote origin already exists.
+
+C:\Users\ronaldo.maia\Desktop\Python II>git branch -M main
+
+C:\Users\ronaldo.maia\Desktop\Python II>git remote add origin https://github.com/RonaldoJMaia/PythonII.git
+error: remote origin already exists.
+
+C:\Users\ronaldo.maia\Desktop\Python II>
