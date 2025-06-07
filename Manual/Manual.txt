@@ -1,0 +1,83 @@
+Mudar do Windows PowerShell para o CMD
+cmd 
+
+Criar a venv
+C:\Users\ronaldo.maia\Desktop\Python II\django>python -m venv ./venv
+
+Ativar a venv
+C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\activate
+
+Desativar a venv
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\deactivate.bat
+
+Rodar o servidor
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django\motor>py manage.py runserver
+
+Parar o servidor
+Quit the server with CTRL-BREAK.
+ou CTRL+C
+
+Criar Super usuário root
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django\motor>py manage.py createsuperuser
+
+Acessar a área ADM
+Rodar o servidor
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django\motor>py manage.py runserver
+Colocar o endereço no navegador
+http://127.0.0.1:8000/admin
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\ronaldo.maia\Desktop>cmd
+Microsoft Windows [versão 10.0.26100.1742]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\ronaldo.maia\Desktop>md projetos
+
+C:\Users\ronaldo.maia\Desktop>cd projetos
+
+C:\Users\ronaldo.maia\Desktop\Projetos>md django
+
+C:\Users\ronaldo.maia\Desktop\Projetos>cd django
+
+C:\Users\ronaldo.maia\Desktop\Projetos\django>python -m venv .venv
+
+C:\Users\ronaldo.maia\Desktop\Projetos\django>.venv\Scripts\activate
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django>
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django>pip install django
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django>django-admin startproject canesgril
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django>cd canesgril
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django\canesgril>python manage.py startapp churras
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django\canesgril>code .
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django\canesgril>python manage.py runserver
+
+
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django\canesgril>python manage.py makemigrations
+No changes detected
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django\canesgril>python manage.py migrate
+
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django\canesgril>python manage.py createsuperuser
+Username (leave blank to use 'ronaldo.maia'): root
+Email address: ronaldojmaia@gmail.com
+Password:
+Password (again):
+This password is too common.
+This password is entirely numeric.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+
+(.venv) C:\Users\ronaldo.maia\Desktop\Projetos\django\canesgril>
+
+
+

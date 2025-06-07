@@ -1,0 +1,29 @@
+Mudar do Windows PowerShell para o CMD
+cmd 
+
+
+Criar a venv
+C:\Users\ronaldo.maia\Desktop\Python II\django>python -m venv ./venv
+
+Ativar a venv
+C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\activate
+
+Desativar a venv
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\deactivate.bat
+
+Rodar o servidor
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django\motor>py manage.py runserver
+
+Parar o servidor
+Quit the server with CTRL-BREAK.
+ou CTRL+C
+
+Criar Super usuário root
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django\motor>py manage.py createsuperuser
+
+
+Acessar a área ADM
+Rodar o servidor
+(venv) C:\Users\ronaldo.maia\Desktop\Python II\django\motor>py manage.py runserver
+Colocar o endereço no navegador
+http://127.0.0.1:8000/admin
