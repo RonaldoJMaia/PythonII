@@ -1,6 +1,14 @@
 from django.db import models
 from datetime import datetime
 from funcionario.models import Funcionario
+
+import uuid
+def get_file_path(_instance, filename):
+    name = filename.split('.')[0]
+    ext = filename.split('.')[-1]
+    filename = f'pratos/{name}-{uuid.uuid4()}.{ext}'
+    return filename
+
 # Create your models here.
 
 class Prato(models.Model):
@@ -14,7 +22,7 @@ class Prato(models.Model):
     date_prato = models.DateTimeField(default=datetime.now, blank=True)
     funcionario = models.ForeignKey(Funcionario, on_delete=models.CASCADE)
     publicado = models.BooleanField(default=False)
-    foto_prato = models.ImageField(upload_to='pratos/%Y/%m/%d', blank=True)
+    foto_prato = models.ImageField(upload_to=get_file_path, blank=True)
 
     
 
