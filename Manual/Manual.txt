@@ -1,3 +1,8 @@
+PS C:\Users\ronaldo.maia\Desktop\Python II> git add .
+PS C:\Users\ronaldo.maia\Desktop\Python II> git commit -m "Criação das views para puxar pratos do banco de dados e criação do novo app funcionário e seu banco de dados"  
+PS C:\Users\ronaldo.maia\Desktop\Python II> git push -u origin main    
+
+
 Mudar do Windows PowerShell para o CMD
 cmd 
 
@@ -5,7 +10,7 @@ Criar a venv
 C:\Users\ronaldo.maia\Desktop\Python II\django>python -m venv ./venv
 
 Ativar a venv
-C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\activate
+C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\activate	
 
 Desativar a venv
 (venv) C:\Users\ronaldo.maia\Desktop\Python II\django>venv\Scripts\deactivate.bat
